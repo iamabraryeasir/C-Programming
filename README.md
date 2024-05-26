@@ -36,3 +36,36 @@
   - `%c` => For Characters.
   - `%f` => For Floating Point Values.
   - `%lf` => For Double Values.
+
+## 👉 Importance of Main Method/Function:
+
+- <u>Entry Point:</u> It's the entry point of a C program, where the execution starts. When a C program is executed, the execution starts from the main function.
+- <u>Required:</u> Every executable C Program must have a main function.
+- <u>Return Type:</u> A successful program execution returns 0 to the OS and a unsuccessful program execution returns a non-zero value.
+- <u>Fixed Name:</u> The name main is recognized as the programmes starting point by the compiler.
+
+## 👉 Comments in C:
+
+- Used to add notes in Code.
+- Not consider as the part of code.
+- Helpful for Code organization.
+- Usually written for the Developers.
+- There are `2 types of comments in C`:
+  1. Single Line Comment.
+     ```c
+     // This is a single line comment.
+     ```
+  2. Multi Line Comment.
+     ```c
+     /*
+     This is a
+     Multi Line
+     Comment.
+     */
+     ```
+
+## 👉 Manually Compile a C Program.
+
+```bash
+gcc file_name.c -o output_file_name
+```
