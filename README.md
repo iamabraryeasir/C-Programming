@@ -1,6 +1,6 @@
 # C Programming Notes 🔥⚡📝
 
-## Developer Environment 🧑‍💻:
+## 🧑‍💻 Developer Environment:
 
 👉 `VS Code + MSYS2 (GCC/G++)`
 
@@ -11,7 +11,7 @@
 
 - [MSYS2](https://github.com/msys2/msys2-installer/releases/download/2024-05-07/msys2-x86_64-20240507.exe) => MSYS2 is a collection of tools and libraries providing you with an easy-to-use environment for building, installing and running native Windows software. Basically it is to install the `C Compiler (GCC/G++)` without any hassle.
 
-## Showing Output in C:
+## 👉 Showing Output in C:
 
 - <u>Printf Function:</u> The `printf` function is used to show output in C. It allows you to display text and variables to the console. Syntax:
 
