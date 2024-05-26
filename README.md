@@ -1,6 +1,8 @@
 # C Programming Notes 🔥⚡📝
 
-## 🧑‍💻 Developer Environment:
+## 0️⃣1️⃣ Chapter-01
+
+### 🧑‍💻 Developer Environment:
 
 👉 `VS Code + MSYS2 (GCC/G++)`
 
@@ -11,7 +13,7 @@
 
 - [MSYS2](https://github.com/msys2/msys2-installer/releases/download/2024-05-07/msys2-x86_64-20240507.exe) => MSYS2 is a collection of tools and libraries providing you with an easy-to-use environment for building, installing and running native Windows software. Basically it is to install the `C Compiler (GCC/G++)` without any hassle.
 
-## 👉 Showing Output in C:
+### 👉 Showing Output in C:
 
 - <u>Printf Function:</u> The `printf` function is used to show output in C. It allows you to display text and variables to the console. Syntax:
 
@@ -37,14 +39,14 @@
   - `%f` => For Floating Point Values.
   - `%lf` => For Double Values.
 
-## 👉 Importance of Main Method/Function:
+### 👉 Importance of Main Method/Function:
 
 - <u>Entry Point:</u> It's the entry point of a C program, where the execution starts. When a C program is executed, the execution starts from the main function.
 - <u>Required:</u> Every executable C Program must have a main function.
 - <u>Return Type:</u> A successful program execution returns 0 to the OS and a unsuccessful program execution returns a non-zero value.
 - <u>Fixed Name:</u> The name main is recognized as the programmes starting point by the compiler.
 
-## 👉 Comments in C:
+### 👉 Comments in C:
 
 - Used to add notes in Code.
 - Not consider as the part of code.
@@ -64,8 +66,18 @@
      */
      ```
 
-## 👉 Manually Compile a C Program.
+### 👉 Manually Compile a C Program.
 
 ```bash
 gcc file_name.c -o output_file_name
 ```
+
+### 👉 How C Program is Compiled.
+
+![How Code Compiles Image](./images/how-c-code-runes.png)
+
+- <u>Pre-processing:</u> Processes directives (like #include #define) before compilation, and modifies the source code according to it.
+- <u>Compiling:</u> Transforms source code written in high level language into assembly language.
+- <u>Assembling:</u> Converts code written in assembly language to Machine Code/ Object Code.
+- <u>Linking:</u> Combines multiple object files into a single executable or library, resolving references between them.
+
