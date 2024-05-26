@@ -1,6 +1,6 @@
 # C Programming Notes 🔥⚡📝
 
-## 0️⃣1️⃣ Chapter-01
+## 0️⃣1️⃣ Chapter-01 (Completed✅)
 
 ### 🧑‍💻 Developer Environment:
 
