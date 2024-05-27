@@ -81,3 +81,126 @@ gcc file_name.c -o output_file_name
 - <u>Assembling:</u> Converts code written in assembly language to Machine Code/ Object Code.
 - <u>Linking:</u> Combines multiple object files into a single executable or library, resolving references between them.
 
+## 0️⃣2️⃣ Chapter-02
+
+### 👉 Variables:
+
+Variables are like containers for storing data values. But actually `Variables are names given to a memory location in the memory or ram.` Syntax to write variables in C:
+
+```c
+// data_type variable_name = variable_value;
+int age = 22;
+```
+
+### 👉 Data Type:
+
+There are basically `3 Types of Data Type` in C.
+
+1. Fundamental Data Type.
+
+   - Integer
+     - int
+     - char
+   - Float
+     - float
+     - double
+   - Void
+
+2. Derived Data Type.
+
+   - Array
+   - Function
+   - Pointers
+
+3. User Define Data Type.
+
+   - Structure
+   - Union
+   - Enum
+   - Typedef
+
+Commonly Used Data Types:
+
+| Data Type |  Size   | Formate Specifier |
+| :-------- | :-----: | :---------------: |
+| char      | 1 Bytes |        %c         |
+| short int | 2 Bytes |    %hd or %hi     |
+| int       | 4 Bytes |     %d or %i      |
+| float     | 4 Bytes |        %f         |
+| long int  | 8 Bytes |        %ld        |
+| double    | 8 Bytes |        %lf        |
+
+### 👉 Rules for naming variables:
+
+1. Variable names can only contain letter, digits and underscore.
+2. Variable names can't start with a number. It can only start with a letter or underscore.
+3. Variable names are case sensitive. (`myname` and `nyName` is not same)
+4. Variable names cannot contain white spaces or special characters like !, #, %, etc.
+5. Key Words can not be used as variable names.
+
+### 👉 Declaring a Constant Variable:
+
+Constant value means giving a value to a variable that can not be changed or re-declared. There are basically 2 ways to declare a constant variable in C:
+
+1. Using `#define`
+2. Using `const` keyword
+
+- <u>#define:</u> To use #define you need to use it before main function and after #include. Syntax:
+
+  ```c
+  // #define variable_name variable_value
+
+  #define PI 3.1416
+  ```
+
+- <u>Const:</u> To use const keyword you need to just add `const` before the variable declaration. Syntax:
+
+  ```c
+  // const data_type variable_name = variable_value;
+
+  const float PI = 3.1416;
+  ```
+
+### 👉 C Keywords:
+
+Keywords are predefined, reserved words used in programming that have special meanings to the compiler. Keywords are part of the syntax and they cannot be used as an identifier.
+
+As C is a case sensitive language, all keywords must be written in lowercase. Here is a list of all keywords allowed in ANSI C.
+
+|          |        |          |          |
+| :------: | :----: | :------: | :------: |
+|   auto   | double |   int    |  struct  |
+|  break   |  else  |   long   |  switch  |
+|   case   |  enum  | register | typedef  |
+|   char   | extern |  return  |  union   |
+| continue |  for   |  signed  |   void   |
+|    do    |   if   |  static  |  while   |
+| default  |  goto  |  sizeof  | volatile |
+|  const   | float  |  short   | unsigned |
+
+### 👉 Escape Sequence:
+
+The escape sequence in C is the characters or the sequence of characters that can be used inside the string literal. The purpose of the escape sequence is to represent the characters that cannot be used normally using the keyboard.
+
+The table below lists some common escape sequences in C language:
+
+| Escape Sequence | Description                                                  |
+| :-------------: | :----------------------------------------------------------- |
+|       \n        | To insert a `New Line` in the string at this point.          |
+|       \t        | To insert a `Tab` in the string at this point.               |
+|       \b        | To insert a `Backspace` in the string at this point.         |
+|       \"        | To insert a `Double Quote` line in the string at this point. |
+|       \'        | To insert a `Single Quote` line in the string at this point. |
+|       \\        | To insert a `Backslash` line in the string at this point.    |
+
+### 👉 User Input in C:
+
+To take user input in C we use `scanf()` function.
+
+Syntax:
+
+```c
+// scanf("formate_specifier", &variable_to_store);
+
+scanf("%d", &num_1);
+```
