@@ -1,5 +1,5 @@
 /*
-Challenge-01: Print This patterns using just a single Printf.
+Problem: Print This patterns using just a single Printf.
 
 Pattern-01:
 
