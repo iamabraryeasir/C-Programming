@@ -1,6 +1,6 @@
 # C Programming Notes 🔥⚡📝
 
-Video Completed: [01:57:28](https://youtu.be/p0QUmC2WJwM?t=7048)
+Video Completed: [02:08:53](https://youtu.be/p0QUmC2WJwM?t=7733)
 
 ## 0️⃣1️⃣ Chapter-01 (Completed✅)
 
@@ -205,4 +205,33 @@ Syntax:
 // scanf("formate_specifier", &variable_to_store);
 
 scanf("%d", &num_1);
+
 ```
+
+## 0️⃣3️⃣ Chapter-03
+
+### 👉 C Instructions:
+
+There are basically 3 types of instructions in C:-
+
+1. <u>Type Declaration Instructions:</u> To declare the type of the variable used in a C Program.
+2. <u>Arithmetic Instructions:</u> To perform arithmetic operations between constants and variables.
+3. <u>Control Instructions:</u> To control the sequence of execution of various statements in a C Program.
+
+### 👉 Assignment Operator:
+
+Assign the right-hand operand's value to the left-hand operand. For example:
+
+```c
+int age = 23;
+```
+
+### 👉 Arithmetic Operators:
+
+| Operators |    Meaning     | Example | Result  |
+| :-------: | :------------: | :-----: | :-----: |
+|     +     |    Addition    |  5 + 2  |    7    |
+|     -     |  Subtraction   |  5 - 2  |    3    |
+|    \*     | Multiplication | 5 \* 2  |   10    |
+|     /     |    Division    |  5 / 2  | 2 (2.5) |
+|     %     |     Modulo     |  5 % 2  |    1    |
