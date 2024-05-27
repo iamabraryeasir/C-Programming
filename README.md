@@ -1,5 +1,7 @@
 # C Programming Notes 🔥⚡📝
 
+Video Completed: [01:57:28](https://youtu.be/p0QUmC2WJwM?t=7048)
+
 ## 0️⃣1️⃣ Chapter-01 (Completed✅)
 
 ### 🧑‍💻 Developer Environment:
