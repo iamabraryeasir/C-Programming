@@ -1,6 +1,6 @@
 # C Programming Notes 🔥⚡📝
 
-Video Completed: [02:08:53](https://youtu.be/p0QUmC2WJwM?t=7733)
+Video Completed: [02:13:14](https://youtu.be/p0QUmC2WJwM?t=7994)
 
 ## 0️⃣1️⃣ Chapter-01 (Completed✅)
 
@@ -226,7 +226,7 @@ Assign the right-hand operand's value to the left-hand operand. For example:
 int age = 23;
 ```
 
-### 👉 Arithmetic Operators:
+### 👉 Basic Arithmetic Operators:
 
 | Operators |    Meaning     | Example | Result  |
 | :-------: | :------------: | :-----: | :-----: |
@@ -235,3 +235,27 @@ int age = 23;
 |    \*     | Multiplication | 5 \* 2  |   10    |
 |     /     |    Division    |  5 / 2  | 2 (2.5) |
 |     %     |     Modulo     |  5 % 2  |    1    |
+
+### 👉 Integer and Float Conversion:
+
+|         Operation          | Answer  |
+| :------------------------: | :-----: |
+|   `int` (operator) `int`   |  `int`  |
+|  `int` (operator) `float`  | `float` |
+|  `float` (operator) `int`  | `float` |
+| `float` (operator) `float` | `float` |
+
+Example:
+
+|  Operation  | Answer |
+| :---------: | :----: |
+|   `5 / 2`   |  `2`   |
+|  `5.0 / 2`  | `2.5`  |
+|  `5 / 2.0`  | `2.5`  |
+| `5.0 / 2.0` | `2.5`  |
+
+### 👉 Type Conversion:
+
+There is 2 types of type conversion in C:
+
+1. <u>Implicit Conversion:</u>
