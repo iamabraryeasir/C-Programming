@@ -1,6 +1,6 @@
 # C Programming Notes 🔥⚡📝
 
-Video Completed: [02:13:14](https://youtu.be/p0QUmC2WJwM?t=7994)
+Video Completed: [02:30:28](https://youtu.be/p0QUmC2WJwM?t=9028)
 
 ## 0️⃣1️⃣ Chapter-01 (Completed✅)
 
@@ -266,3 +266,47 @@ There is 2 types of type conversion in C:
 
     float a = 5 / (float) 2; // Output: 2.500000
    ```
+
+### 👉 Precedency / Hierarchy of Operators:
+
+We can easily memorize it using `BODMAS`.
+
+- `B` => Brackets.
+- `O` => Order.
+- `D` => Divide.
+- `M` => Multiply.
+- `A` => Addition.
+- `S` => Subtraction.
+
+But there is a small change:
+
+| Priority | Operators |
+| :------: | :-------: |
+|   1st    |    ( )    |
+|   2nd    | \*, /, %  |
+|   3rd    |   +, -    |
+|   4th    |     =     |
+
+### 👉 Associativity of Operator:
+
+`Left to Right`
+
+### 👉 Short Hand Operators:
+
+| Operator | Name of the Operator        | Example  | Equivalent Constructor |
+| :------: | :-------------------------- | :------: | :--------------------: |
+|    +=    | Addition Assignment         | `a += 2` |      `a = a + 2`       |
+|    -=    | Subtraction Assignment      | `a -= 2` |      `a = a - 2`       |
+|   \*=    | Multiplication Assignment   | `a *= 2` |      `a = a * 2`       |
+|    /=    | Division Assignment         | `a /= 2` |      `a = a / 2`       |
+|    %=    | Modulo/Remainder Assignment | `a %= 2` |      `a = a % 2`       |
+
+### 👉 Unary Operators:
+
+|     Operator      | Description                                                   | Example |
+| :---------------: | :------------------------------------------------------------ | :-----: |
+|        `-`        | Convert a Positive Value to a negative                        |   -y    |
+|  `Pre Increment`  | Increment the value by 1 and use it in our statement          |   ++y   |
+|  `Pre Decrement`  | Decrement the value by 1 and use it in our statement          |   --y   |
+| `Post Increment`  | Use current value in the statement and then Increment it by 1 |   y++   |
+| `Poste Decrement` | Use current value in the statement and then Decrement it by 1 |   y--   |
