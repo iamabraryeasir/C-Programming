@@ -17,25 +17,25 @@ Video Completed: [02:13:14](https://youtu.be/p0QUmC2WJwM?t=7994)
 
 ### 👉 Showing Output in C:
 
-- <u>Printf Function:</u> The `printf` function is used to show output in C. It allows you to display text and variables to the console. Syntax:
+- <u>**Printf Function:**</u> The `printf` function is used to show output in C. It allows you to display text and variables to the console. Syntax:
 
   ```c
   printf("formatted string", variable_1, variable_2,...);
   ```
 
-- <u>Displaying Text:</u> To print any text using printf. Just enclose the massage/text in double quotes. Syntax:
+- <u>**Displaying Text:**</u> To print any text using printf. Just enclose the massage/text in double quotes. Syntax:
 
   ```c
   printf("Hello, C Program!!");
   ```
 
-- <u>New Line:</u> Use `\n` within the string to move to a new line. Syntax:
+- <u>**New Line:**</u> Use `\n` within the string to move to a new line. Syntax:
 
   ```c
   printf("Hello, \nC Program!!");
   ```
 
-- <u>Inserting Variable Values:</u> We need to use `formate specifiers` to insert variable values inside the string. Like:
+- <u>**Inserting Variable Values:**</u> We need to use `formate specifiers` to insert variable values inside the string. Like:
   - `%d` or `%i` => For Integers.
   - `%c` => For Characters.
   - `%f` => For Floating Point Values.
@@ -43,10 +43,10 @@ Video Completed: [02:13:14](https://youtu.be/p0QUmC2WJwM?t=7994)
 
 ### 👉 Importance of Main Method/Function:
 
-- <u>Entry Point:</u> It's the entry point of a C program, where the execution starts. When a C program is executed, the execution starts from the main function.
-- <u>Required:</u> Every executable C Program must have a main function.
-- <u>Return Type:</u> A successful program execution returns 0 to the OS and a unsuccessful program execution returns a non-zero value.
-- <u>Fixed Name:</u> The name main is recognized as the programmes starting point by the compiler.
+- <u>**Entry Point:**</u> It's the entry point of a C program, where the execution starts. When a C program is executed, the execution starts from the main function.
+- <u>**Required:**</u> Every executable C Program must have a main function.
+- <u>**Return Type:**</u> A successful program execution returns 0 to the OS and a unsuccessful program execution returns a non-zero value.
+- <u>**Fixed Name:**</u> The name main is recognized as the programmes starting point by the compiler.
 
 ### 👉 Comments in C:
 
@@ -78,10 +78,10 @@ gcc file_name.c -o output_file_name
 
 ![How Code Compiles Image](./images/how-c-code-runes.png)
 
-- <u>Pre-processing:</u> Processes directives (like #include #define) before compilation, and modifies the source code according to it.
-- <u>Compiling:</u> Transforms source code written in high level language into assembly language.
-- <u>Assembling:</u> Converts code written in assembly language to Machine Code/ Object Code.
-- <u>Linking:</u> Combines multiple object files into a single executable or library, resolving references between them.
+- <u>**Pre-processing:**</u> Processes directives (like #include #define) before compilation, and modifies the source code according to it.
+- <u>**Compiling:**</u> Transforms source code written in high level language into assembly language.
+- <u>**Assembling:**</u> Converts code written in assembly language to Machine Code/ Object Code.
+- <u>**Linking:**</u> Combines multiple object files into a single executable or library, resolving references between them.
 
 ## 0️⃣2️⃣ Chapter-02
 
@@ -147,7 +147,7 @@ Constant value means giving a value to a variable that can not be changed or re-
 1. Using `#define`
 2. Using `const` keyword
 
-- <u>#define:</u> To use #define you need to use it before main function and after #include. Syntax:
+- <u>**#define:**</u> To use #define you need to use it before main function and after #include. Syntax:
 
   ```c
   // #define variable_name variable_value
@@ -155,7 +155,7 @@ Constant value means giving a value to a variable that can not be changed or re-
   #define PI 3.1416
   ```
 
-- <u>Const:</u> To use const keyword you need to just add `const` before the variable declaration. Syntax:
+- <u>**Const:**</u> To use const keyword you need to just add `const` before the variable declaration. Syntax:
 
   ```c
   // const data_type variable_name = variable_value;
@@ -214,9 +214,9 @@ scanf("%d", &num_1);
 
 There are basically 3 types of instructions in C:-
 
-1. <u>Type Declaration Instructions:</u> To declare the type of the variable used in a C Program.
-2. <u>Arithmetic Instructions:</u> To perform arithmetic operations between constants and variables.
-3. <u>Control Instructions:</u> To control the sequence of execution of various statements in a C Program.
+1. <u>**Type Declaration Instructions:**</u> To declare the type of the variable used in a C Program.
+2. <u>**Arithmetic Instructions:**</u> To perform arithmetic operations between constants and variables.
+3. <u>**Control Instructions:**</u> To control the sequence of execution of various statements in a C Program.
 
 ### 👉 Assignment Operator:
 
@@ -238,24 +238,31 @@ int age = 23;
 
 ### 👉 Integer and Float Conversion:
 
-|         Operation          | Answer  |
-| :------------------------: | :-----: |
-|   `int` (operator) `int`   |  `int`  |
-|  `int` (operator) `float`  | `float` |
-|  `float` (operator) `int`  | `float` |
+| Operation                  | Answer  |
+| :------------------------- | :-----: |
+| `int` (operator) `int`     |  `int`  |
+| `int` (operator) `float`   | `float` |
+| `float` (operator) `int`   | `float` |
 | `float` (operator) `float` | `float` |
 
 Example:
 
-|  Operation  | Answer |
-| :---------: | :----: |
-|   `5 / 2`   |  `2`   |
-|  `5.0 / 2`  | `2.5`  |
-|  `5 / 2.0`  | `2.5`  |
+| Operation   | Answer |
+| :---------- | :----: |
+| `5 / 2`     |  `2`   |
+| `5.0 / 2`   | `2.5`  |
+| `5 / 2.0`   | `2.5`  |
 | `5.0 / 2.0` | `2.5`  |
 
 ### 👉 Type Conversion:
 
 There is 2 types of type conversion in C:
 
-1. <u>Implicit Conversion:</u>
+1. <u>**Implicit Conversion:**</u> C automatically converts one data type to another when needed. Example: int to float during operations.
+2. <u>**Explicit Conversion:**</u> The programmer forcefully converts one data type to another. Syntax:
+
+   ```c
+    // (data_type) variable
+
+    float a = 5 / (float) 2; // Output: 2.500000
+   ```
