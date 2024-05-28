@@ -1,9 +1,10 @@
 # C Programming Notes🔥⚡📝
 
 Tutorial Following: [C Language Tutorial for Beginners](https://youtu.be/irqbmMNs2Bo)
+<br>
 Video Completed: [00:00:00](https://youtu.be/irqbmMNs2Bo)
 
-## Index:
+## 🗂️ Index:
 
 | Chapter No.  | Topics Covered                          |
 | :----------: | :-------------------------------------- |
