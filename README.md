@@ -2,7 +2,7 @@
 
 Tutorial Following: [C Language Tutorial for Beginners](https://youtu.be/irqbmMNs2Bo)
 <br>
-Video Completed: [00:00:00](https://youtu.be/irqbmMNs2Bo)
+Video Completed: [00:36:20](httpshttps://youtu.be/irqbmMNs2Bo?t=2180)
 
 ## 🗂️ Index:
 
@@ -32,14 +32,6 @@ int main()
     printf("Hello, C Program!!");
     return 0;
 }
-```
-
-### 👉 Showing Output in C:
-
-To show output in C we use `printf` function. Basically what printf does is it prints a string in the terminal. Syntax:
-
-```c
-printf("Text to Show.");
 ```
 
 ### 👉 Data Types in C:
@@ -121,6 +113,83 @@ printf("My age is %d.", age);
 3. Variable names must start with a alphabet or underscore.
 4. No commas and blank spaces are allowed in variable names.
 5. No other special characters than underscore ( \_ ) is allowed in variable names.
+6. Key Words can not be used as reserve words.
+
+### 👉 Constant in C:
+
+The value that don't change(fixed). There are basically 3 types of constants in C:
+
+1. Integer Constant.
+2. Real Constant.
+3. Character Constant.
+
+### 👉 Constant Variables in C:
+
+There are basically 2 ways to write constant variable in C:
+
+1. Using `const` keyword.
+2. Using `#define`.
+
+<u>**Using `const` keyword:**</u> To declare a constant variable using const keyword we just need to add const before the variable declaration.
+
+```c
+const int num = 23;
+```
+
+<u>**Using `#define`:**</u> To declare a constant variable using #define we need to follow the following syntax and add it before the main function.
+
+```c
+// #define variable_name variable_value
+
+#define PI 3.1417
+```
+
+### 👉 Keywords in C:
+
+Keywords are Reserved words that have special meaning to the compiler. There are `32 Keywords` in standard ANSI C.
+
+|          |        |          |          |
+| :------: | :----: | :------: | :------: |
+|   auto   | break  |   case   |   char   |
+| continue |   do   | default  |  const   |
+|  double  |  else  |   enum   |  extern  |
+|   for    |   if   |   goto   |  float   |
+|   int    |  long  | register |  return  |
+|  signed  | static |  sizeof  |  short   |
+|  struct  | switch | typedef  |  union   |
+|   void   | while  | volatile | unsigned |
+
+### 👉 Program Structure in C:
+
+```c
+#include <stdio.h> // Preprocessor Directive.
+
+int main() // Main function.
+{
+    /*
+    Other program codes.
+    */
+    return 0;
+}
+
+```
+
+`#include <stdio.h>` is called Preprocessor Directive. And `stdio.h` is called the standard input output header file. `.h` means header file it means code written by someone else.
+
+`main()` function is the execution starting point for all c program. In any c program the starting of program execution will start from the main function. If there is no main function there will be no execution. Every executable c program must have a main function. Inside main function the program will execute line by line top to bottom. And after every program statement there must be a `Semicolon (;)`.
+
+`return 0` returns a integer value to the OS. If the program execution is successful then it will return 0. But there is any error in the program it will return a non zero value.
+
+### 👉 Showing Output in C:
+
+To show output in C we use `printf` function. Basically what printf does is it prints a string in the terminal. Syntax:
+
+```c
+printf("Text to Show.");
+
+\\ new line
+printf("Text to Show.\n");
+```
 
 ### 👉 User Input in C:
 
