@@ -22,6 +22,18 @@ Video Completed: [00:00:00](https://youtu.be/irqbmMNs2Bo)
 
 ## 0️⃣1️⃣ Chapter 01.
 
+### 👉 First C Program in C:
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    printf("Hello, C Program!!");
+    return 0;
+}
+```
+
 ### 👉 Showing Output in C:
 
 To show output in C we use `printf` function. Basically what printf does is it prints a string in the terminal. Syntax:
