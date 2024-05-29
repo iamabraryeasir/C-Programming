@@ -46,16 +46,31 @@ printf("Text to Show.");
 
 There are basically 4 fundamentals in C:
 
-| S.No. | Data Type         | Keyword  | Formate Specifier |
-| :---: | :---------------- | :------- | :---------------: |
-|  01   | Integer           | `int`    |       `%d`        |
-|  02   | Floating Numbers  | `float`  |       `%f`        |
-|  03   | Character         | `char`   |       `%c`        |
-|  04   | Double/Big Values | `double` |       `%lf`       |
+| S.No. | Data Type         | Keyword  | Formate Specifier | Size (Bytes) |
+| :---: | :---------------- | :------- | :---------------: | :----------: |
+|  01   | Character         | `char`   |       `%c`        |      1       |
+|  02   | Integer           | `int`    |       `%d`        |      4       |
+|  03   | Floating Numbers  | `float`  |       `%f`        |      4       |
+|  04   | Double/Big Values | `double` |       `%lf`       |      8       |
+
+To check the size of any data type. We need to use `sizeof` function. Syntax:
+
+```c
+// printf("%d", sizeof(data_type_name));
+
+printf("%d", sizeof(int));
+```
+
+We can customize the primary data types using some keywords before them like:
+
+- long
+- short
+- signed
+- unsigned
 
 ### 👉 Variables in C:
 
-Variables are like containers. Variables are basically names given to a memory location in a program to store some data and access it afterwards when needed. Basic Syntax of a Variable in C:
+Variable is the name of a memory location which stores some data. Basic Syntax of a Variable in C:
 
 ```c
 // data_type variable_name = variable_value;
@@ -98,6 +113,14 @@ int age = 20;
 
 printf("My age is %d.", age);
 ```
+
+### 👉 Variable Naming Rules:
+
+1. Variables are Case Sensitive.
+2. Variable names can't start with a number.
+3. Variable names must start with a alphabet or underscore.
+4. No commas and blank spaces are allowed in variable names.
+5. No other special characters than underscore ( \_ ) is allowed in variable names.
 
 ### 👉 User Input in C:
 
