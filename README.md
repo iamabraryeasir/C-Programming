@@ -2,7 +2,7 @@
 
 Tutorial Following: [C Language Tutorial for Beginners](https://youtu.be/irqbmMNs2Bo)
 <br>
-Video Completed: [00:36:20](httpshttps://youtu.be/irqbmMNs2Bo?t=2180)
+Video Completed: [00:49:47](https://youtu.be/irqbmMNs2Bo?t=2987)
 
 ## 🗂️ Index:
 
