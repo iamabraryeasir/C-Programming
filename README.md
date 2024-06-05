@@ -208,3 +208,17 @@ char name[10];
 
 scanf("%s", &name);
 ```
+
+## 0️⃣2️⃣ Chapter 02.
+
+### 👉 Instructions:
+
+These are statements in a program. There are basically 3 types of Instructions in C:
+
+1. Type Declaration Instructions.
+2. Arithmetic Instructions.
+3. Control Instructions.
+
+<u>Type Declaration Instructions:</u> Type Declaration Instructions basically means declaring a variable/function with it's type. There is a small rule in Type Declaration Instructions and that is `Declare Variable before using it.`
+
+<u>Arithmetic Instructions:</u> Any kind mathematical instructions are called Arithmetic Instructions in C. Note: While writing Arithmetic Instructions we must have a single variable on the LHS of the equal sign or assignment operator. 
